@@ -156,34 +156,3 @@ body {
   margin: 0; 
   padding: 0; 
 }
-
-/* Tus estilos existentes aquí */
-
-/* Media Query para dispositivos móviles con un ancho máximo de 768px */
-@media only screen and (max-width: 768px) {
-  .card {
-    width: 90%; /* Ancho del 90% del viewport */
-    height: auto; /* Altura automática para adaptarse al contenido */
-    max-width: none; /* Sin ancho máximo */
-    top: 50%; /* Posición central */
-    transform: translate(-50%, -50%); /* Centrar horizontal y verticalmente */
-  }
-
-  .inside {
-    width: 100%; /* Ancho del 100% del contenedor padre */
-    padding: 20px; /* Espaciado interno */
-  }
-
-  .outside,
-  .inside {
-    width: 100%; /* Ancho del 100% del contenedor padre */
-    position: static; /* Posición estática */
-  }
-
-  .inside h1 {
-    font-size: 60px; /* Tamaño de fuente más pequeño para dispositivos móviles */
-    line-height: 60px; /* Altura de línea más pequeña */
-  }
-
-  /* Otros estilos específicos para dispositivos móviles */
-}
